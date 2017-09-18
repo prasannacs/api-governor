@@ -8,7 +8,7 @@ MAINTAINER prasannacs
 RUN apt-get update
 
 ######### JDK INSTALLATION ##########
-RUN apt-get install default-jdk
+RUN apt-get install oracle-java8
 
 ######### BEGIN TOMCAT INSTALLATION ##########
 RUN echo groupadd tomcat
