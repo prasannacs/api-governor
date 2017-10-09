@@ -13,5 +13,4 @@ spec:
   selector:
     name: redis
     role: master
-  loadBalancerIP: 35.202.237.116
   type: LoadBalancer
