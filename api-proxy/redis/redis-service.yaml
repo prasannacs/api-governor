@@ -13,3 +13,4 @@ spec:
   selector:
     name: redis
     role: master
+  type: LoadBalancer
